@@ -1,0 +1,477 @@
+/* src/Xyce_config.h.in.  Generated from configure.ac by autoheader.  */
+
+/* define if you have the bison parser generator */
+#undef HAVE_BISON
+
+/* Define to 1 if you have the <dlfcn.h> header file. */
+#undef HAVE_DLFCN_H
+
+/* Define to 1 if you have the `drand48' function. */
+#undef HAVE_DRAND48
+
+/* Define to 1 if you have the `erf' function. */
+#undef HAVE_ERF
+
+/* Define to 1 if you have the `erfc' function. */
+#undef HAVE_ERFC
+
+/* define if you have the flex lexical scanner generator */
+#undef HAVE_FLEX
+
+/* Define to 1 if you have the <float.h> header file. */
+#undef HAVE_FLOAT_H
+
+/* Define to 1 if you have the <functional> header file. */
+#undef HAVE_FUNCTIONAL
+
+/* Define to 1 if you have the `getdomainname' function. */
+#undef HAVE_GETDOMAINNAME
+
+/* Define to 1 if you have the `gethostname' function. */
+#undef HAVE_GETHOSTNAME
+
+/* Define to 1 if you have the `getopt' function. */
+#undef HAVE_GETOPT
+
+/* Define to 1 if you have the `getpwuid' function. */
+#undef HAVE_GETPWUID
+
+/* Define to 1 if you have the <inttypes.h> header file. */
+#undef HAVE_INTTYPES_H
+
+/* define if the Standard Template Library algorithms include iota */
+#undef HAVE_IOTA
+
+/* Define to 1 if you have the `amd' library (-lamd). */
+#undef HAVE_LIBAMD
+
+/* Define to 1 if you have the `amesos' library (-lamesos). */
+#undef HAVE_LIBAMESOS
+
+/* Define to 1 if you have the `amesos2' library (-lamesos2). */
+#undef HAVE_LIBAMESOS2
+
+/* Define to 1 if you have the `ARAEnv' library (-lARAEnv). */
+#undef HAVE_LIBARAENV
+
+/* Define to 1 if you have the `aztecoo' library (-laztecoo). */
+#undef HAVE_LIBAZTECOO
+
+/* Define to 1 if you have the `belos' library (-lbelos). */
+#undef HAVE_LIBBELOS
+
+/* Define to 1 if you have the `belosepetra' library (-lbelosepetra). */
+#undef HAVE_LIBBELOSEPETRA
+
+/* Define to 1 if you have the `boost_filesystem' library
+   (-lboost_filesystem). */
+#undef HAVE_LIBBOOST_FILESYSTEM
+
+/* Define to 1 if you have the `boost_regex' library (-lboost_regex). */
+#undef HAVE_LIBBOOST_REGEX
+
+/* Define to 1 if you have the `boost_serialization' library
+   (-lboost_serialization). */
+#undef HAVE_LIBBOOST_SERIALIZATION
+
+/* Define to 1 if you have the `boost_signals' library (-lboost_signals). */
+#undef HAVE_LIBBOOST_SIGNALS
+
+/* Define to 1 if you have the `boost_system' library (-lboost_system). */
+#undef HAVE_LIBBOOST_SYSTEM
+
+/* Define to 1 if you have the `cholmod' library (-lcholmod). */
+#undef HAVE_LIBCHOLMOD
+
+/* Define to 1 if you have the `colamd' library (-lcolamd). */
+#undef HAVE_LIBCOLAMD
+
+/* Define to 1 if you have the `dakota' library (-ldakota). */
+#undef HAVE_LIBDAKOTA
+
+/* Define to 1 if you have the `epetra' library (-lepetra). */
+#undef HAVE_LIBEPETRA
+
+/* Define to 1 if you have the `epetraext' library (-lepetraext). */
+#undef HAVE_LIBEPETRAEXT
+
+/* Define to 1 if you have the `ifpack' library (-lifpack). */
+#undef HAVE_LIBIFPACK
+
+/* Define to 1 if you have the `isorropia' library (-lisorropia). */
+#undef HAVE_LIBISORROPIA
+
+/* Define to 1 if you have the `loca' library (-lloca). */
+#undef HAVE_LIBLOCA
+
+/* Define to 1 if you have the `metis' library (-lmetis). */
+#undef HAVE_LIBMETIS
+
+/* Define to 1 if you have the `nox' library (-lnox). */
+#undef HAVE_LIBNOX
+
+/* Define to 1 if you have the `parmetis' library (-lparmetis). */
+#undef HAVE_LIBPARMETIS
+
+/* Define to 1 if you have the `rol' library (-lrol). */
+#undef HAVE_LIBROL
+
+/* Define to 1 if you have the `shylu' library (-lshylu). */
+#undef HAVE_LIBSHYLU
+
+/* Define to 1 if you have the `suitesparseconfig' library
+   (-lsuitesparseconfig). */
+#undef HAVE_LIBSUITESPARSECONFIG
+
+/* Define to 1 if you have the `superlu' library (-lsuperlu). */
+#undef HAVE_LIBSUPERLU
+
+/* Define to 1 if you have the `superludist' library (-lsuperludist). */
+#undef HAVE_LIBSUPERLUDIST
+
+/* Define to 1 if you have the `teuchos' library (-lteuchos). */
+#undef HAVE_LIBTEUCHOS
+
+/* Define to 1 if you have the `teuchoscomm' library (-lteuchoscomm). */
+#undef HAVE_LIBTEUCHOSCOMM
+
+/* Define to 1 if you have the `teuchoscore' library (-lteuchoscore). */
+#undef HAVE_LIBTEUCHOSCORE
+
+/* Define to 1 if you have the `teuchosnumerics' library (-lteuchosnumerics).
+   */
+#undef HAVE_LIBTEUCHOSNUMERICS
+
+/* Define to 1 if you have the `teuchosparameterlist' library
+   (-lteuchosparameterlist). */
+#undef HAVE_LIBTEUCHOSPARAMETERLIST
+
+/* Define to 1 if you have the `teuchosremainder' library
+   (-lteuchosremainder). */
+#undef HAVE_LIBTEUCHOSREMAINDER
+
+/* Define to 1 if you have the `trilinoscouplings' library
+   (-ltrilinoscouplings). */
+#undef HAVE_LIBTRILINOSCOUPLINGS
+
+/* Define to 1 if you have the `trilinosss' library (-ltrilinosss). */
+#undef HAVE_LIBTRILINOSSS
+
+/* Define to 1 if you have the `triutils' library (-ltriutils). */
+#undef HAVE_LIBTRIUTILS
+
+/* Define to 1 if you have the `umfpack' library (-lumfpack). */
+#undef HAVE_LIBUMFPACK
+
+/* Define to 1 if you have the `zoltan' library (-lzoltan). */
+#undef HAVE_LIBZOLTAN
+
+/* Define to 1 if you have the <limits.h> header file. */
+#undef HAVE_LIMITS_H
+
+/* Define to 1 if you have the `mallinfo' function. */
+#undef HAVE_MALLINFO
+
+/* Define to 1 if you have the <malloc.h> header file. */
+#undef HAVE_MALLOC_H
+
+/* Define to 1 if you have the <mathimf.h> header file. */
+#undef HAVE_MATHIMF_H
+
+/* Define to 1 if you have the <memory.h> header file. */
+#undef HAVE_MEMORY_H
+
+/* define if the compiler implements namespaces */
+#undef HAVE_NAMESPACES
+
+/* define if the compiler supports isnan and isinf checks */
+#undef HAVE_NAN_INF_SUPPORT
+
+/* Define to 1 if you have the <pwd.h> header file. */
+#undef HAVE_PWD_H
+
+/* Set to have SRenvironment.h */
+#undef HAVE_SRENVIRONMENT_H
+
+/* Define to 1 if you have the <stdint.h> header file. */
+#undef HAVE_STDINT_H
+
+/* Define to 1 if you have the <stdlib.h> header file. */
+#undef HAVE_STDLIB_H
+
+/* define if the compiler supports Standard Template Library */
+#undef HAVE_STL
+
+/* Define to 1 if you have the `strcasecmp' function. */
+#undef HAVE_STRCASECMP
+
+/* Define to 1 if you have the <strings.h> header file. */
+#undef HAVE_STRINGS_H
+
+/* Define to 1 if you have the <string.h> header file. */
+#undef HAVE_STRING_H
+
+/* Define to 1 if you have the `sysconf' function. */
+#undef HAVE_SYSCONF
+
+/* Define to 1 if you have the <sys/resource.h> header file. */
+#undef HAVE_SYS_RESOURCE_H
+
+/* Define to 1 if you have the <sys/stat.h> header file. */
+#undef HAVE_SYS_STAT_H
+
+/* Define to 1 if you have the <sys/types.h> header file. */
+#undef HAVE_SYS_TYPES_H
+
+/* Define to 1 if you have the <sys/utsname.h> header file. */
+#undef HAVE_SYS_UTSNAME_H
+
+/* Define to 1 if you have the <tr1/unordered_map> header file. */
+#undef HAVE_TR1_UNORDERED_MAP
+
+/* Define to 1 if you have the <tr1/unordered_set> header file. */
+#undef HAVE_TR1_UNORDERED_SET
+
+/* Define to 1 if you have the `uname' function. */
+#undef HAVE_UNAME
+
+/* Define to 1 if you have the <unistd.h> header file. */
+#undef HAVE_UNISTD_H
+
+/* Define to 1 if you have the <unordered_map> header file. */
+#undef HAVE_UNORDERED_MAP
+
+/* Define to 1 if you have the <unordered_set> header file. */
+#undef HAVE_UNORDERED_SET
+
+/* Define to 1 if you have the <values.h> header file. */
+#undef HAVE_VALUES_H
+
+/* Define to 1 if you have the file `/proc/self/stat'. */
+#undef HAVE__PROC_SELF_STAT
+
+/* Define to the sub-directory where libtool stores uninstalled libraries. */
+#undef LT_OBJDIR
+
+/* Name of package */
+#undef PACKAGE
+
+/* Define to the address where bug reports for this package should be sent. */
+#undef PACKAGE_BUGREPORT
+
+/* Define to the full name of this package. */
+#undef PACKAGE_NAME
+
+/* Define to the full name and version of this package. */
+#undef PACKAGE_STRING
+
+/* Define to the one symbol short name of this package. */
+#undef PACKAGE_TARNAME
+
+/* Define to the home page for this package. */
+#undef PACKAGE_URL
+
+/* Define to the version of this package. */
+#undef PACKAGE_VERSION
+
+/* Define to 1 if you have the ANSI C header files. */
+#undef STDC_HEADERS
+
+/* use threads */
+#undef USE_THREADS
+
+/* Version number of package */
+#undef VERSION
+
+/* Set to use admsmodels. */
+#undef Xyce_ADMS_MODELS
+
+/* Set to use adms_sensitivities. */
+#undef Xyce_ADMS_SENSITIVITIES
+
+/* Set to use amd. */
+#undef Xyce_AMD
+
+/* Set to use amesos2. */
+#undef Xyce_AMESOS2
+
+/* Build the ATHENA device. */
+#undef Xyce_ATHENA
+
+/* Set to use athena. */
+#undef Xyce_ATHENA_REQUSTED
+
+/* Set to use belos. */
+#undef Xyce_BELOS
+
+/* Set to use charon. */
+#undef Xyce_CHARON
+
+/* Set to use curl. */
+#undef Xyce_CURL
+
+/* Set to use debug_analysis. */
+#undef Xyce_DEBUG_ANALYSIS
+
+/* Set to use debug_circuit. */
+#undef Xyce_DEBUG_CIRCUIT
+
+/* Set to use debug_device. */
+#undef Xyce_DEBUG_DEVICE
+
+/* Set to use debug_directsolve. */
+#undef Xyce_DEBUG_DIRECTSOLVE
+
+/* Set to use debug_distribution. */
+#undef Xyce_DEBUG_DISTRIBUTION
+
+/* Set to use debug_es. */
+#undef Xyce_DEBUG_ES
+
+/* Set to use debug_expression. */
+#undef Xyce_DEBUG_EXPRESSION
+
+/* Set to use debug_hb. */
+#undef Xyce_DEBUG_HB
+
+/* Set to use debug_io. */
+#undef Xyce_DEBUG_IO
+
+/* Set to use debug_linear. */
+#undef Xyce_DEBUG_LINEAR
+
+/* Set to use debug_mor. */
+#undef Xyce_DEBUG_MOR
+
+/* Set to use debug_nonlinear. */
+#undef Xyce_DEBUG_NONLINEAR
+
+/* Set to use debug_parallel. */
+#undef Xyce_DEBUG_PARALLEL
+
+/* Set to use debug_restart. */
+#undef Xyce_DEBUG_RESTART
+
+/* Set to use debug_sampling. */
+#undef Xyce_DEBUG_SAMPLING
+
+/* Set to use debug_time. */
+#undef Xyce_DEBUG_TIME
+
+/* Set to use debug_topology. */
+#undef Xyce_DEBUG_TOPOLOGY
+
+/* Set to use dakota. */
+#undef Xyce_Dakota
+
+/* Set to use fft. */
+#undef Xyce_FFT
+
+/* Set to use fftw. */
+#undef Xyce_FFTW
+
+/* Set to use fortran_blas. */
+#undef Xyce_FORTRAN_BLAS
+
+/* Set to use hdf5. */
+#undef Xyce_HDF5
+
+/* Set to use intel_fft. */
+#undef Xyce_IntelFFT
+
+/* Set to use ksparse. */
+#undef Xyce_KSPARSE
+
+/* Set to use modspec. */
+#undef Xyce_MODSPEC_MODELS
+
+/* Set to use neuronmodels. */
+#undef Xyce_NEURON_MODELS
+
+/* Set to use nonfree. */
+#undef Xyce_NONFREE_MODELS
+
+/* Set to use nox_use_vector_copy. */
+#undef Xyce_NOX_USE_VECTOR_COPY
+
+/* Set to use op_start. */
+#undef Xyce_OP_START
+
+/* define if running with MPI parallel */
+#undef Xyce_PARALLEL_MPI
+
+/* Set to use pardiso_mkl. */
+#undef Xyce_PARDISO_MKL
+
+/* Set to use radmodels. */
+#undef Xyce_RAD_MODELS
+
+/* Set to use reaction_parser. */
+#undef Xyce_REACTION_PARSER
+
+/* Set to use rol. */
+#undef Xyce_ROL
+
+/* Set to use shylu. */
+#undef Xyce_SHYLU
+
+/* Set to use spice_norms. */
+#undef Xyce_SPICE_NORMS
+
+/* Set to use stokhos. */
+#undef Xyce_STOKHOS_ENABLE
+
+/* Set to use superlu. */
+#undef Xyce_SUPERLU
+
+/* Set to use superludist. */
+#undef Xyce_SUPERLUDIST
+
+/* Set to use test_soln_var_map. */
+#undef Xyce_TEST_SOLN_VAR_MAP
+
+/* Audit Xyce runs. */
+#undef Xyce_TRACKING_URL
+
+/* Set to use trilinos_dev. */
+#undef Xyce_TRILINOS_DEV
+
+/* Set to use bsim3_const. */
+#undef Xyce_USE_BSIM3_CONST
+
+/* Set to use cURL library */
+#undef Xyce_USE_CURL
+
+/* Set to use either FFTW or Intel's FFT library. */
+#undef Xyce_USE_FFT
+
+/* Set to use FFTW library */
+#undef Xyce_USE_FFTW
+
+/* Set to use HDF5 library */
+#undef Xyce_USE_HDF5
+
+/* Set to use Intel's FFT library */
+#undef Xyce_USE_INTEL_FFT
+
+/* Set to use isorropia. */
+#undef Xyce_USE_ISORROPIA
+
+/* Set to use zoltan. */
+#undef Xyce_USE_ZOLTAN
+
+/* Set to use verbose_linear. */
+#undef Xyce_VERBOSE_LINEAR
+
+/* Set to use verbose_nonlinear. */
+#undef Xyce_VERBOSE_NONLINEAR
+
+/* Set to use verbose_nox. */
+#undef Xyce_VERBOSE_NOX
+
+/* Set to use verbose_time. */
+#undef Xyce_VERBOSE_TIME
+
+/* Define to 1 if `lex' declares `yytext' as a `char *' by default, not a
+   `char[]'. */
+#undef YYTEXT_POINTER
